@@ -57,6 +57,6 @@ public class Menu extends JFrame implements ActionListener {
 		}
 	}
 	protected void do_btnSalir_actionPerformed(ActionEvent e) {
-		System.console();
+		System.exit(ABORT);
 	}
 }
